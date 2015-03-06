@@ -1,0 +1,7 @@
+/*
+  Custom keymaps
+*/
+[
+  { "keys": ["super+:"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": true } }
+]
