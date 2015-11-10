@@ -1,23 +1,35 @@
 
+Petite technique pour sauvegarder et versionner votre configuration sur les préférences dans Submime Text.
+
 # 1. Pré-requis
 
-Avoir installé Sublime Text 3
+Avoir installé [Sublime Text 2](http://www.sublimetext.com/2) ou [Sublime Text 3](http://www.sublimetext.com/3) sur votre OS.
 
 # 2. Installation
 
-On clone le repo suivant où on le souhaite, par exemple "~/work/config"
+## 2.1 Cloner le repository
 
-On se positionne dans le répertoire de configuration propre à un utilisateur dans Sublime Text 3
-/!\ Attention ce chemin peut évidemment varier selon les OS et les versions de Sublime Text
+On clone le repository suivant où on le souhaite, par exemple dans `~/work/config`
 
-  cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+	cd ~/work/config
 
-On fait les liens symboliques pour les fichiers concernés
+	git clone https://github.com/alvinberthelot/my_sublime_text_config.git
 
-	ln -s ~/work/config/my_sublime_text_config/Default\ \(OSX\).sublime-keymap Default\ \(OSX\).sublime-keymap
+## 2.2 Identifier le répertoire Sublime Text approprié
 
-  ln -s ~/work/config/my_sublime_text_config/Preferences.sublime-settings Preferences.sublime-settings
+Il faut désormais connaître le chemin du répertoire approprié à Sublime Text qui doit contenir votre configuration.
 
-  ln -s ~/work/config/my_sublime_text_config/WordCount.sublime-settings WordCount.sublime-settings
+⚠ **Attention** le chemin du répertoire peut évidemment varier selon les OS et les versions de Sublime Text.
+
+Un exemple sous Mac OS avec Sublime Text 3 : `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
+
+Pour connaître votre chemin de répertoire, vous pouvez utiliser `Sublime Text > Preferences > Browse Packages...`
+
+## 2.3 Réaliser les liens 
+
+	ln -s ~/work/config/my_sublime_text_keymaps/*.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+⚠ **Attention** cette commande est valable si le repository a été cloné dans `~/work/config` et si votre répertoire Sublime Text est le suivant `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`.
+
 
 On tient à jour ses configurations Sublime Text dans GitHub, c'est tout et c'est déjà pas mal :)

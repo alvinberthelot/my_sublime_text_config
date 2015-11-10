@@ -1,0 +1,41 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"AngularJS",
+		"AsciiDoc",
+		"Babel",
+		"Babel Snippets",
+		"Bootstrap 3 Jade Snippets",
+		"Color Highlighter",
+		"Colorsublime",
+		"CSSLint",
+		"EJS",
+		"Emmet",
+		"Emmet Css Snippets",
+		"GitGutter",
+		"Handlebars",
+		"Material Theme",
+		"Package Control",
+		"Polymer & Web Component Snippets",
+		"Sass",
+		"SASS Snippets",
+		"SassBeautify",
+		"Schemr",
+		"Seti_UI",
+		"Seti_UX",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Syntax Highlighting for Sass",
+		"Theme - Cobalt2",
+		"Themr",
+		"WordCount"
+	]
+}
