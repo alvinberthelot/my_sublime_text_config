@@ -13,7 +13,7 @@ On clone le repository suivant où on le souhaite, par exemple dans `~/work/conf
 
 	cd ~/work/config
 
-	git clone https://github.com/alvinberthelot/my_sublime_text_config.git
+	git clone https://github.com/alvinberthelot/my_sublime_text_settings.git
 
 ## 2.2 Identifier le répertoire Sublime Text approprié
 
@@ -23,11 +23,11 @@ Il faut désormais connaître le chemin du répertoire approprié à Sublime Tex
 
 Un exemple sous Mac OS avec Sublime Text 3 : `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`
 
-Pour connaître votre chemin de répertoire, vous pouvez utiliser `Sublime Text > Preferences > Browse Packages...`
+Pour connaître votre chemin de répertoire, vous pouvez utiliser `Sublime Text > Preferences > Browse Packages...` dans le menu de Sublime Text.
 
 ## 2.3 Réaliser les liens 
 
-	ln -s ~/work/config/my_sublime_text_keymaps/*.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+	ln -s ~/work/config/my_sublime_text_settings/*.sublime-settings  ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 ⚠ **Attention** cette commande est valable si le repository a été cloné dans `~/work/config` et si votre répertoire Sublime Text est le suivant `~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User`.
 
