@@ -13,6 +13,7 @@
 		"Babel",
 		"Babel Snippets",
 		"Bootstrap 3 Jade Snippets",
+		"Cobalt2 Flat Theme",
 		"Color Highlighter",
 		"Colorsublime",
 		"CSSLint",
@@ -24,6 +25,7 @@
 		"Handlebars",
 		"JavaScriptNext - ES6 Syntax",
 		"JSX",
+		"LaTeX Word Count",
 		"Material Theme",
 		"Package Control",
 		"Polymer & Web Component Snippets",
@@ -41,7 +43,6 @@
 		"Theme - Cobalt2",
 		"Themr",
 		"TypeScript",
-		"TypescriptCompletion",
-		"WordCount"
+		"TypescriptCompletion"
 	]
 }
