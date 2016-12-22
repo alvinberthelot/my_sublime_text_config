@@ -8,6 +8,7 @@
 		"AdvancedNewFile",
 		"Anaconda",
 		"AngularJS",
+		"ArcticTypescript",
 		"AsciiDoc",
 		"Babel",
 		"Babel Snippets",
@@ -18,8 +19,11 @@
 		"EJS",
 		"Emmet",
 		"Emmet Css Snippets",
+		"Fix Mac Path",
 		"GitGutter",
 		"Handlebars",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
 		"Material Theme",
 		"Package Control",
 		"Polymer & Web Component Snippets",
@@ -36,6 +40,8 @@
 		"Syntax Highlighting for Sass",
 		"Theme - Cobalt2",
 		"Themr",
+		"TypeScript",
+		"TypescriptCompletion",
 		"WordCount"
 	]
 }
