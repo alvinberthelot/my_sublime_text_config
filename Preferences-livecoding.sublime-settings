@@ -1,0 +1,23 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_indent": true,
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
+	"default_encoding": "UTF-8",
+	"font_size": 24,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"AngularJS",
+		"SublimeLinter-jshint",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"save_on_focus_lost": false,
+	"shift_tab_unindent": true,
+	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true
+}
